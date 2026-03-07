@@ -1,6 +1,6 @@
 {
   "name": "@mykeyma3/citrus-cli",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "description": "Official CLI for the Citrus Platform — manage workspaces, flows, apps, deployments, teams, and more from your terminal.",
   "main": "lib/index.js",
   "bin": {
