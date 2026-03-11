@@ -5,6 +5,10 @@
 const { program } = require('commander');
 const pkg = require('../package.json');
 const { banner, styledHelp, colors, logoCompact, versionTag } = require('../lib/brand');
+const tracker = require('../lib/ae-tracker');
+
+// Aestimor analytics — track CLI startup
+tracker.trackInit();
 
 // ─── Custom Help Formatter ──────────────────────────────────────
 program.configureHelp(styledHelp(pkg.version));
